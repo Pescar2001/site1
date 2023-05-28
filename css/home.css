@@ -1,0 +1,181 @@
+.welcome {
+  background-color: var(--bg-primary);
+  height: 100vh;
+}
+.welcome p,
+.welcome h1 {
+  color: var(--text-white);
+}
+
+.welcome p {
+  font-size: var(--fs-large);
+  margin-bottom: var(--spacing-medium);
+}
+.welcome p:last-of-type {
+  margin-bottom: var(--spacing-xl);
+}
+.welcome span {
+  color: var(--text-secondary);
+}
+
+.welcome img {
+  height: 24px;
+  width: auto;
+  margin-left: var(--spacing-medium);
+  position: relative;
+  top: var(--spacing-tiny);
+}
+
+.welcome a {
+  color: var(--text-light);
+  background-color: var(--button-color);
+  font-size: var(--fs-medium);
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  padding: var(--spacing-medium);
+  border: 2px solid var(--button-color);
+  width: 260px;
+  cursor: pointer;
+}
+.welcome a:hover {
+  background-color: transparent;
+}
+
+.welcome .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .welcome h1 {
+    font-size: 2.5rem;
+  }
+
+  .welcome p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .welcome img {
+    display: block;
+    margin-top: var(--spacing-medium);
+    margin-left: var(--spacing-small);
+  }
+
+  .welcome a {
+    display: none;
+  }
+
+  .welcome {
+    padding-bottom: 4rem;
+  }
+}
+.courses h2{
+  text-align: center;
+  margin: var(--spacing-large) 0;
+}
+
+.courses-container{
+ display: flex;
+ flex-wrap: wrap;
+}
+.courses .course-wrapper{
+  width: calc(100% / 3);
+  padding-left: var(--spacing-small);
+  padding-right: var(--spacing-small);
+}
+.courses .course{
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: var(--spacing-tiny);
+}
+.courses h3 {
+  color:var(--text-primary) ;
+  font-weight: 400;
+}
+.courses .content {
+  padding: var(--spacing-medium) var(--spacing-small);
+}
+.courses span {
+  font-size: var(--fs-medium);
+  color: var(--text-dark);
+}
+.courses .material-icons {
+  vertical-align: middle;
+}
+.course .date, .courses .place {
+  padding: var(--spacing-tiny);
+}
+.course .place {
+  background-color: var(--text-secondary);
+  margin-left: var(--spacing-tiny);
+  border: 1px solid var(--text-secondary);
+  border-radius: 5px;
+}
+.courses .course, .courses h3, .courses .badges {
+  margin-bottom: var(--spacing-medium);
+  }
+  .courses .bar {
+    height: var(--spacing-tiny);
+    background-color: var(--button-color);
+    border-radius: 10px;
+
+}
+.description{
+  background-color: var(--bg-secondary);
+}
+.description .container{
+  padding: var(--spacing-medium) var(--spacing-small);
+  background-color: blue;
+  max-width: 1200px;
+  
+  
+}
+.description .container p {
+  margin-right: var(--spacing-small);
+  margin-left: var(--spacing-small);
+}
+.description h2{
+  padding-top: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+  text-align: center;
+}
+.description p{
+  text-align: center;
+  margin-bottom: var(--spacing-large);
+}
+.description .images-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-large);
+}
+.description img {
+  width: 100%;
+  height: auto;
+}
+ .description .image-wrapper{
+  width: calc(100% / 3);
+  padding-right: var(--spacing-small);
+  padding-left: var(--spacing-small);
+  margin-bottom: var(--spacing-medium);
+  max-width: 1200px;
+}
+
+
+
+
+@media (max-width: 992px) {
+  .courses .course-wrapper{
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .courses .course-wrapper{
+    width: 100%;
+  }
+}
+
+
+
