@@ -1,0 +1,16 @@
+.welcome{
+    height: 50vh;
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome .container {
+    margin: auto;
+    padding: var(--spacing-medium);
+}
+.welcome h1{
+    text-align: center;
+    color: var(--text-light);
+    
+}
