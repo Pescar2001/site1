@@ -14,3 +14,105 @@
     color: var(--text-light);
     
 }
+.courses .container{
+    padding: var(--spacing-medium) var(--spacing-medium);
+    margin: auto;
+}
+
+.courses h2{
+    margin-bottom: var(--spacing-large);
+    text-align: center;
+    padding-top: var(--spacing-large);
+    color: var(--text-primary);
+}
+.courses .p-prezentare{
+    margin-left: var(--spacing-small);
+    margin-right: var(--spacing-small);
+    margin-bottom: var(--spacing-large);
+    text-align: center;
+}
+p{
+    color: var(--text-dark);
+}
+.courses .courses-depo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: var(--spacing-large);
+    
+}
+.courses .course-wrapper{
+    width: calc(100% / 3);
+    padding-left: var(--spacing-small);
+    padding-right: var(--spacing-small);
+}
+.courses .course{
+    width: 100%;
+    padding: var(--spacing-tiny);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: var(--spacing-medium);
+}
+.courses .poza-prezentare{
+    width: 100%;
+    height: auto;
+    margin-bottom: var(--spacing-large);
+}
+.courses .content{
+    padding: 0 var(--spacing-small);
+}
+.courses h3 {
+    margin-bottom: var(--spacing-medium);
+    color: var(--text-primary);
+    font-size: 1.5rem;
+}
+.courses .certification{
+    margin-bottom: var(--spacing-medium);
+    font-size: var(--fs-medium);
+    color: #666;
+}
+.courses .logo-microsoft{
+    margin-left: var(--spacing-small);
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+.courses .detalii{
+    margin-bottom: var(--spacing-medium);
+}
+.courses span{
+    font-size: var(--fs-medium);
+    color: #666;
+} 
+.courses .material-icons{
+    vertical-align: middle;
+}
+.courses .duration{
+    margin-left: var(--spacing-small);
+    
+}
+.courses .ore{
+    margin-left: var(--spacing-small);
+   
+}
+
+.courses a{
+    margin-bottom: var(--spacing-medium);
+    text-align: center;
+    color: var( --text-white);
+    background-color: var(--button-color);
+    border: 1 px solid var(--button-color);
+    border-radius: 5px;
+    padding: var(--spacing-tiny);
+    width: 100px;
+}
+@media ( max-width: 992px) {
+    .courses .course-wrapper{
+        width: 50%;
+    }
+}
+@media(max-width: 768px) {
+    .courses .course-wrapper{
+        width: 100%;
+    }
+    
+}
